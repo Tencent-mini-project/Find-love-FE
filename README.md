@@ -1,6 +1,6 @@
-# haha
+# Find-love
 
-> A Vue.js project about Tencent
+> A Vue.js project about Tencent mini project
 
 ## Build Setup
 
