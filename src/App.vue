@@ -19,20 +19,31 @@
       <a href="https://github.com/vuejs/vue-router/" target="_blank">vue-router</a> for routing and
       <a href="https://github.com/vuejs/vuex/" target="_blank">vuex</a> for state management.
     </p>
+    <button-tab>
+      <button-tab-item>Today</button-tab-item>
+      <button-tab-item selected>This Week</button-tab-item>
+      <button-tab-item>This Month</button-tab-item>
+    </button-tab>
+    <p>这是一个组件测试</p>
   </div>
 </template>
 
 <script>
 import Hello from './components/Hello'
-
+import Group from 'vux-components/group'
+import {ButtonTab, ButtonTabItem} from 'vux-components/button-tab' 
 export default {
   components: {
-    Hello
+    Hello,
+    Group,
+    ButtonTab,
+    ButtonTabItem
   }
 }
 </script>
 
 <style>
+@import '~vux/dist/vux.css';
 html {
   height: 100%;
 }
