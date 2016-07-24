@@ -24,7 +24,7 @@ module.exports = {
     ],
     "semi": [
         "warn",
-        "always"
+        "never"
     ],
     "no-console": 1,
     "no-alert": 1,    

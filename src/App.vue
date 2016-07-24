@@ -24,8 +24,8 @@
       <button-tab-item selected>This Week</button-tab-item>
       <button-tab-item>This Month</button-tab-item>
     </button-tab>
-    <p>这是一个组件测试</p>
-  </div>
+    <p>这是一个组件测试</p> 
+  </div>  
 </template>
 
 <script>
