@@ -14,7 +14,7 @@
     justify-content: center;
     box-sizing: border-box;
     padding: 80px 0px 110px 0px;
-    border-bottom: 2px solid #00bea0;
+    border-bottom: 1px solid #00bea0;
 }
 img {
     user-select:none;

@@ -17,14 +17,13 @@
   align-items:center;
   position: relative;
   box-sizing: border-box;
-  height: 100px;
-  border-bottom: 2px solid #00bea0;
-  font-size: 36px;
+  height: 50px;
+  border-bottom: 1px solid #00bea0;
+  font-size: 18px;
   font-weight: 100;
 }
 .text-input input {
-
-  font-size: 36px;
+  font-size: 18px;
   color: #00bea0;
   background-color: rgba(0,0,0,0);
   border: 0px;

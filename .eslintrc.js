@@ -1,5 +1,9 @@
 module.exports = {
   root: true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
   parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module'
@@ -27,7 +31,7 @@ module.exports = {
         "never"
     ],
     "no-console": 1,
-    "no-alert": 1,    
+    "no-alert": 1,
     "no-unused-vars": 1,    //定义的变量未使用
     "no-empty-function": 1, //不允许空函数
     "no-multi-spaces": 2,   //等号两遍空格数对称
@@ -35,7 +39,7 @@ module.exports = {
     "no-undef": 2,          //变量未定义
     "no-native-reassign": 2,//禁止覆盖原生对象
     "no-floating-decimal": 1,//禁止浮点数 .1 2.写法
-    "no-loop-func": 1,      //禁止在循环中定义函数     
+    "no-loop-func": 1,      //禁止在循环中定义函数
     "no-void": 2,           //禁用void
     "no-with": 2,           //禁用with
     "space-infix-ops": 2,   //操作符后有空格
@@ -73,7 +77,7 @@ module.exports = {
       ],                     //yeild星号位置
     "comma-dangle": ["error", "never"], //数组,对象中最后一个元素之后的逗号
     "generator-star-spacing": ["error", "after"], //generator星号位置
-    "valid-jsdoc": 1,        //jsdoc        
+    "valid-jsdoc": 1,        //jsdoc
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
