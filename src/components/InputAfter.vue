@@ -1,18 +1,22 @@
 <template>
-  <div class="input-after">
+  <div class="input-after" @click="changeSentState(true)">
     <div v-bind:style=" {color: color, fontSize: size} "> {{content}} </div>
   </div>
 </template>
 <script>
-
-  export default {
-    props: {
-      size: String,
-      color: String,
-      content: [String, Number]
+import { changeSentState } from '../store/actions'
+export default {
+  props: {
+    size: String,
+    color: String,
+    content: [String, Number]
+  },
+  vuex: {
+    actions: {
+      changeSentState
     }
   }
-
+}
 </script>
 <style>
 .input-after {

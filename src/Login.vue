@@ -28,7 +28,6 @@ export default {
   },
   computed: {
     currentView() {
-      console.log(this.isSend)
       return this.isSend ? 'CountDown' : 'InputAfter'
     }
   }

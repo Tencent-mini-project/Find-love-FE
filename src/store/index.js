@@ -4,7 +4,7 @@ import mutations from './mutations'
 Vue.use(Vuex)
 const state = {
   strict: process.env.NODE_ENV !== 'production',
-  isSend: true,
+  isSend: false,
   counttime: 0
 }
 export default new Vuex.Store({
